@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    border: 0%;
+        
+}
+
+body{
+    background-image: linear-gradient(to
+    right,rgba(36,137,44),white);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    width:33%;
+    float: right;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20%;
+    background-color: rgb(8, 110, 110);
+
+}
+header P{
+    color: rgb(228, 15, 15);
+}
+
+
+footer{
+    background-color: rgb(37, 204, 79);
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+header{
+    position: relative;
+    background-image:url(fondo2.jpg);
+    background-position: center center;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.slider{
+    float: left;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.slider ul{
+    display: flex;
+    padding: 0%;
+    width: 300%;
+    animation: cambio 20s infinite;
+
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0%{margin-left:0;}
+    30%{margin-left:0;}
+
+    33%{margin-left:-100%;}
+    63%{margin-left:-100%;}
+
+    66%{margin-left:-200%;}
+    100%{margin-left:-200%;}
+
+    
+}
+.separador{
+    width: 30%;
+}
+.imge{
+    width: 80%;
+    padding: 100px;
+    clear: both;
+}
+
+.main{
+    height: 600px;
+}
+h1{
+    color: rgb(236, 9, 65);
+}
+p{
+    color:whitesmoke;
+}
